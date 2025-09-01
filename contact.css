@@ -1,0 +1,183 @@
+/* General Styles */
+body {
+    font-family: Roboto;
+    background-image: url('grey.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: #1A1A1A;
+}
+
+.logo {
+    font-size: 2rem;
+    color: #FFFFFF;
+    font-family: Poppins;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin: 0 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+ul li a:hover,
+ul li a.active {
+    color: #FFD700;
+    border-bottom: 2px solid #FFD700;
+}
+
+/* Contact Form */
+.contactForm {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contactForm h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+form fieldset {
+    border: none;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+input:focus,
+textarea:focus {
+    border: 2px solid #FFD700; /* yellow border */
+    outline: none;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    display: block;
+    margin: 10px auto 0;
+    width: 120px;
+    height: 35px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background-color: #FFD700;
+    color: #1A1A1A;
+    font-weight: bold;
+    transition: transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Details */
+.contactDetails {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contactDetails h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.contactDetails p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.icons a {
+    color: #FFFFFF; /* default white */
+    font-size: 40px;
+    transition: all 0.3s ease;
+}
+
+.icons a:hover {
+    color: #FFD700; /* gold on hover */
+    transform: scale(1.2);
+}
+
+
+
+/* CV Button */
+.cvresume {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #FFD700;
+    color: #1A1A1A;
+    border-radius: 4px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.cvresume:hover {
+    transform: scale(1.05);
+    background-color: #FFFFFF;
+}
+
+/* Footer */
+.footer {
+    background-color: #1A1A1A;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

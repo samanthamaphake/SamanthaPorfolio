@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div id="container">
+        
+        <header>
+            <h1 class="logo">MyPortfolio</h1>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact Me</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </header>
+
+        <section class="contactForm">
+            <h2>Reach Out To Me</h2>
+            <form id="contactForm">
+                <fieldset>
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="Enter your first name">
+
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName" placeholder="Enter your last name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your phone number">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Type your message"></textarea>
+
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <section class="contactDetails">
+            <h2>Contact Me</h2>
+            <p class="phone">(+27) 82 264 3345</p>
+            <p class="email">samanthamaphake@outlook.com</p>
+
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/samantha-nthamane-maphake-7a561a277" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://wa.me/27822643345" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://www.youtube.com/@SamiSami-nt2dw" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://www.github.com/samanthamaphake" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+
+            <p class="cv">
+                <a href="/Samantha_Recent_CV.pdf" class="cvresume" download>Download CV</a>
+            </p>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; 2025 Samantha Maphake. All rights reserved.</p>
+        </footer>
+
+    </div>
+    <script src="contact.js"></script>
+</body>
+</html>

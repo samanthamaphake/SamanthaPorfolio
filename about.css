@@ -1,0 +1,132 @@
+/* General Styles */
+body {
+    font-family: Roboto;
+    background-image: url('grey.jpg');
+    background-size: cover;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: #1A1A1A;
+}
+
+.logo {
+    font-size: 2rem;
+    color: #FFFFFF;
+    font-family: Poppins;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin: 0 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+ul li a:hover {
+    cursor: pointer;
+    color: #FFD700;
+    border-bottom: 2px solid #FFD700;
+}
+
+.about {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: rgba(26, 26, 26, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about .paragraph p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.education, .hobbies {
+    margin-bottom: 20px;
+}
+
+.education h3, .hobbies h3 {
+    color: #FFD700;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #FFD700;
+    padding-bottom: 5px;
+}
+
+.education-item {
+    margin-bottom: 15px;
+}
+
+.education-item h4 {
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.education-item p {
+    margin: 0;
+    font-size: 16px;
+    color: #D3D3D3;
+}
+.hobbies ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* Distribute items evenly across the container */
+    margin: 0;
+}
+
+.hobbies li {
+    font-size: 18px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.hobbies li span {
+    margin-right: 10px; /* Adds spacing between the icon and the text */
+    font-size: 20px;
+}
+
+.hobbies li:hover {
+    transform: translateY(-5px); /* Adds a small hover effect */
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
